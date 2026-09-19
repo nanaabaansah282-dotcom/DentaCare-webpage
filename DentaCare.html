@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DentaCare</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <!-- Linking Font Awesome to our project -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="fixed top-0 left-0 w-full bg-blue-900 shadow-md hover:bg-blue-900/30 hover:backdrop-blur-md z-50 transition-all duration-300">
+        <nav class="w-[1000px] mx-auto flex justify-between py-4 px-4">
+            <div class="text-3xl font-bold text-white tracking-tight">DENTACARE</div>
+            <div class="flex items-center ">
+                <ul class="flex space-x-8">
+                    <li><a href="" class="text-white hover:text-blue-200 hover:scale-105">Home</a></li>
+                    <li><a href="" class="text-white hover:text-blue-200 hover:scale-105">About</a></li>
+                    <li><a href="" class="text-white hover:text-blue-200 hover:scale-105">Services</a></li>
+                    <li><a href="" class="text-white hover:text-blue-200 hover:scale-105">Doctors</a></li>
+                    <li><a href="" class="text-white hover:text-blue-200 hover:scale-105">Blog</a></li>
+                    <li><a href="" class="text-white hover:text-blue-200 hover:scale-105">Contact</a></li>
+                </ul>
+
+                <button class=" bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-500 shadow-blue-500/30 ml-8">
+                    Book Appointment
+                </button>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+     <section class="bg-[url(/images/image2.jpg)] pt-20 bg-cover bg-no-repeat relative pb-20">
+        <div class="bg-gradient-to-b from blue-900/60 to to-black/50 absolute inset-0"></div>
+        <div class="w-[1000px] mx-auto px-6 relative z-10">
+            <div class="text-white w-[700px]">
+                <h1 class="text-5xl font-extrabold leading-tight tracking-tight drop-shadow-md ">Modern Dentistry in a Calm Environment</h1>
+                <p class="text-lg text-gray-200">A small river named Duden flows by their place, providing a serene backdrop for your dental care. </p>
+                <button class="mt-8 bg-gradient-to-r from-indigo-600 to-blue-600 text-white px-8 py-3 rounded-full shadow-lg">Book An Appointment</button>
+            </div>
+        </div>
+     </section>
+
+     <!-- Services section -->
+      <section class="py-20 bg-gradient-to-b from-white to-blue-50">
+        <div class="w-[1000px] mx-auto px-6">
+            <h2 class="text-4xl font-extrabold text-center text-gray-800 mb-4 tracking-tight">Our Services Keep You Sailing</h2>
+            <p class="text-gray-600 text-center mb-12 w-[700px] mx-auto">Discover professional dental services crafted to enhance your smile's health and beauty.</p>
+            
+            <div class="flex gap-6">
+                <!-- first box -->
+                <div class="w-[333px] bg-white p-6 rounded-2xl shadow-lg border-t-4 border-indigo-600 hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
+                    <div class="text-blue-500 text-5xl mb-4">
+                        <i class="fa fa-ambulance" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-2">Emergency Cases</h3>
+                        <p class="text-gray-600 mb-4 ">Swift, compassionate care for dental emergencies.</p>
+                        <p class="font-bold text-indigo-600">+ (123) 456 7890</p>
+                    </div>
+                </div>
+                        
+                <!-- second box -->
+                <div class="w-[333px] bg-white p-6 rounded-2xl shadow-lg border-t-4 border-indigo-600 transform hover:-translate-y-1 transition-all duration-300">
+                    <div class="text-blue-500 text-5xl mb-4">
+                        <i class="fa fa-clock" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-2">Opening Hours</h3>
+                        <ul class="text-gray-600 space-y-2">
+                            <li>Mon - Frid: 8:00 - 19:00 </li>
+                            <li>Saturday: 10:00 - 17:00 </li>
+                            <li>Sunday: 10:00 - 16:00 </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+
+                <!-- third box  -->
+                <div class="w-[333px] bg-white p-6 rounded-2xl shadow-lg border-t-4 border-indigo-600 transform hover:-translate-y-1 transition-all duration-300">
+                    <div class="text-blue-500 text-5xl mb-4">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-2">Book Appointment</h3>
+                        <form class="space-y-3">
+                            <select class="w-full p-2 rounded-lg border border-gray-300 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition">
+                                <option value="">Select Department</option>
+                                <option value="">General Department</option>
+                                <option value="">Orthodonticst</option>
+                                <option value="">Dental Implants</option>
+                            </select>
+
+                            <input type="text" placeholder="Your Name" class="w-full p-2 rounded-lg border border-gray-300 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition">
+                            <input type="email" placeholder="E-mail" class="w-full p-2 rounded-lg border border-gray-300 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition">
+                            <input type="tel" placeholder="Phone" class="w-full p-2 rounded-lg border border-gray-300 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition">
+                            <div class="flex gap-2">
+                                <input type="date" class="w-[162px] p-2 rounded-lg border border-gray-300 bg-gray-50">
+                                 <input type="time" class="w-[162px] p-2 rounded-lg border border-gray-300 bg-gray-50">
+                            </div>
+                            <button type="submit" class="w-full bg-gradient-to-r from-indigo-600 to-blue-600 text-white p-2 rounded-lg ">
+                                Book Now
+                            </button>
+                        </form>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+      </section>
+
+      <!-- Services Offered -->
+       <section class="py-16 bg-white">
+        <div class="w-[1000px] mx-auto px-6">
+            <div class="text-center flex gap-6">
+                <div class="w-[250px] bg-gradient-to-b from-gray-50 to-white p-4 rounded-xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                    <i class="fas fa-tooth text-4xl text-indigo-600 "></i>
+                    <h3 class="text-xl font-semibold text-gray-800">Teeth Whitening</h3>
+                </div>
+
+                <!-- Second -->
+                 <div class="w-[250px] bg-gradient-to-b from-gray-50 to-white p-4 rounded-xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                    <i class="fas fa-teeth text-4xl text-indigo-600 "></i>
+                    <h3 class="text-xl font-semibold text-gray-800">Teeth Cleaning</h3>
+                </div>
+
+                <!-- Third -->
+                 <div class="w-[250px] bg-gradient-to-b from-gray-50 to-white p-4 rounded-xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                    <i class="fas fa-ruler text-4xl text-indigo-600 "></i>
+                    <h3 class="text-xl font-semibold text-gray-800">Quality Brackets</h3>
+                </div>
+
+                <!-- Fourth -->
+                 <div class="w-[250px] bg-gradient-to-b from-gray-50 to-white p-4 rounded-xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                    <i class="fas fa-tooth text-4xl text-indigo-600 "></i>
+                    <h3 class="text-xl font-semibold text-gray-800">Dental Implants</h3>
+                </div>
+
+            </div>
+        </div>
+       </section>
+       <!-- Doctor -->
+        <section class="py-20 bg-gradient-to-b from-gray-50 to-white">
+            <div class="w-[1000px] mx-auto my-6">
+                <h2 class="text-4xl font-extrabold text-center text-gray-800 mb-12 tracking-tight">Meet Our Expert Team</h2>
+                <div class=" flex gap-6">
+                    <!-- First -->
+                     <div class="w-[250px] bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl ">
+                        <img src="images/image7.jpg" alt="Doctor 1" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Patricia Jacobson</h3>
+                            <p class="text-gray-600">Dentist</p>
+                        </div>
+                     </div>
+                     <!-- Second -->
+                       <div class="w-[250px] bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl ">
+                        <img src="images/image6.jpg" alt="Doctor 1" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Josh Miller</h3>
+                            <p class="text-gray-600">Dentist</p>
+                        </div>
+                     </div>
+                     <!-- Third -->
+                       <div class="w-[250px] bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl ">
+                        <img src="images/image9.jpg" alt="Doctor 1" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">William Bonney</h3>
+                            <p class="text-gray-600">Dentist</p>
+                        </div>
+                     </div>
+                     <!-- Fourth -->
+                       <div class="w-[250px] bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl ">
+                        <img src="images/images10.jpg" alt="Doctor 1" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Leyla Mitchell</h3>
+                            <p class="text-gray-600">Dentist</p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonial -->
+         <section class="py-20 bg-gray-100">
+            <div class="w-[1000px] mx-auto px-6">
+                <h2 class="text-4xl font-extrabold text-center text-gray-800 mb-4 tracking-tight">What Our Patients Say</h2>
+                <p class="text-gray-600 text-center mb-12 w-[700px] mx-auto">A small river named Duden flows by their place, offering a serene dental experience.</p>
+                <div class="flex gap-6">
+                    <div class="w-[333px] bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border-l-4 border-indigo-600">
+                        <p class="text-gray-600 mb-4 ">"The best dental experience! The staff is friendly and the environment is so calming."</p>
+                        <p class="font-semibold text-gray-800">John Doe</p>
+                    </div>
+
+                    <div class="w-[333px] bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border-l-4 border-indigo-600">
+                        <p class="text-gray-600 mb-4 ">"The best dental experience! The staff is friendly and the environment is so calming."</p>
+                        <p class="font-semibold text-gray-800">Christian Wright</p>
+                    </div>
+                
+                    <div class="w-[333px] bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border-l-4 border-indigo-600">
+                        <p class="text-gray-600 mb-4 ">"The best dental experience! The staff is friendly and the environment is so calming."</p>
+                        <p class="font-semibold text-gray-800">Julia Morrison</p>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <!-- Blog Sectkion -->
+          <section class="py-20">
+            <div class="w-[1000px] mx-auto px-6">
+                <h2 class="text-4xl font-extrabold text-center text-gray-800 mb-4 tracking-tight">Latest Blog Posts</h2>
+                <p class="text-center text-gray-600 mb-12 w-[700px mx-auto]">Stay updated with our dental care tips and news.</p>
+                    <div class=" flex gap-6">
+                        <!-- First -->
+                        <div class="w-[333px] bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl ">
+                            <img src="images/image4.jpg" alt="Doctor 1" class="w-full h-48 object-cover">
+                            <div class="p-4">
+                                <h3 class="text-xl font-semibold text-gray-800 mb-2">Top 5 Tips for a Brighter Smile</h3>
+                                <p class="text-gray-600 mb-4">Learn how to maintain a healthy and bright smile with those simple tips.</p>
+                                <a href="#" class="text-indigo-600 hover:text-indigo-800 transition-all duration-300">Read More</a>
+                            </div>
+                        </div>
+                        <!-- Second -->
+                        <div class="w-[333px] bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl ">
+                            <img src="images/image8.jpg" alt="Doctor 1" class="w-full h-48 object-cover">
+                            <div class="p-4">
+                                <h3 class="text-xl font-semibold text-gray-800 mb-2">Benefits of Regular Checkup</h3>
+                                <p class="text-gray-600 mb-4">Discover why regular dentist visits are crucial for oral health.</p>
+                                <a href="#" class="text-indigo-600 hover:text-indigo-800 transition-all duration-300">Read More</a>
+                            </div>
+                        </div>
+                        <!-- Third -->
+                        <div class="w-[333px] bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl ">
+                            <img src="images/image1.jpg" alt="Doctor 1" class="w-full h-48 object-cover">
+                            <div class="p-4">
+                                <h3 class="text-xl font-semibold text-gray-800 mb-2">Understanding Dental Implants</h3>
+                                <p class="text-gray-600 mb-4">Everything you need to know about dental implants.</p>
+                                <a href="#" class="text-indigo-600 hover:text-indigo-800 transition-all duration-300">Read More</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+            </div>
+          </section>
+          <!-- Questions -->
+           <section class="py-20">
+            <div class="w-[1000px] mx-auto px-6">
+                <h2 class="text-4xl font-extrabold text-center text-gray-800 mb-4 tracking-tight">Frequently Asked Questions</h2>
+                <p class="text-center text-gray-600 mb-12 w-[700px mx-auto]">Find answers to common questions about our dental services.</p>
+                <div class="space-y-4">
+                    <details class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border-l-4 border-indigo-600">
+                        <summary class="text-lg font-semibold text-gray-800 cursor-pointer">How often should I visit the dentist?</summary>
+                        <p class="text-gray-600 mt-2">We recommend a visit every six months for checkups and cleanings to maintain optimal oral health</p>
+                    </details>
+
+                    <details class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border-l-4 border-indigo-600">
+                        <summary class="text-lg font-semibold text-gray-800 cursor-pointer">Does teeth whitening hurt?</summary>
+                        <p class="text-gray-600 mt-2">Our whitening procedures are safe and painless, with minimal sensitivity that subsides quickly.</p>
+                    </details>
+
+                    <details class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border-l-4 border-indigo-600">
+                        <summary class="text-lg font-semibold text-gray-800 cursor-pointer">What should I do in a dental emergency?</summary>
+                        <p class="text-gray-600 mt-2">Contact us at + (123) 456 7890 for immediate emergency dental services.</p>
+                    </details>
+                </div>
+            </div>
+           </section>
+           <!-- Contact -->
+            <section class="py-20">
+                <div class="w-[1000px] mx-auto px-6">
+                    <h2 class="text-4xl font-extrabold text-center text-gray-800 mb-4 pt-12 tracking-tight">Get in Touch</h2>
+                    <p class="text-gray-600 text-center mb-12 w-[700px] mx-auto">A small river named Duden flows by, creating a serene setting for your inquiries.</p>
+                    <div class="flex gap-6">
+                        <!-- form -->
+                        <div class="w-[500px]">
+                         <div class="rounded-2xl shadow-xl border-t-4 border-indigo-600 hover:shadow-2xl transition-all duration-300 p-8">
+                            <form>
+                                <select class="w-full p-3 mb-4 rounded-lg bg-gray-50 border border-gray-300 text-gray-800 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition">
+                                    <option>Select</option>
+                                    <option>Billing</option>
+                                    <option>Appointment</option>
+                                    <option>General Inquiry Type</option>
+                                </select>
+                                <input type="text" placeholder="Name" class="w-full p-3 mb-4 rounded-lg bg-gray-50 border border-gray-300 text-gray-800 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition">
+                                <input type="email" placeholder="Email" class="w-full p-3 mb-4 rounded-lg bg-gray-50 border border-gray-300 text-gray-800 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition">
+                                <textarea placeholder="Message" class="w-full p-3 mb-4 rounded-lg bg-gray-50 border border-gray-300 text-gray-800 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition h-32"></textarea>
+                                <button type="submit" class=" w-full bg-gradient-to-r from-indigo-600 to-blue-600 text-white p-3 rounded-lg shadow-md">
+                                    Send Message
+                                </button>
+                            </form>
+                         </div>
+                        </div>
+                        <!-- Info -->
+                         <div class="w-[500px]">
+                            <div class="bg-blue-900 text-white p-8 rounded-2xl shadow-2xl border-t-4 border-indigo-600 hover:shadow-2xl transition-all duration-300 p-8">
+                                <h3 class="text-xl font-semibold mb-4">Contact Information</h3>
+                                <p class="mb-4 flex items-center">
+                                    <i class="fa-solid fa-location-dot mr-2 text-indigo-300"></i>
+                                    123 Duden Road, Dental City, DC 12345
+                                </p>
+                                <p class="mb-4 flex items-center">
+                                    <i class="fa-solid fa-phone-alt mr-2 text-indigo-300"></i>
+                                    <a href="tel:+123456 7890" class="hover:text-indigo-300 transition">+ (123) 456 7890</a>
+                                </p>
+                                <p class="mb-4 flex items-center">
+                                    <i class="fa-solid fa-envelope mr-2 text-indigo-300"></i>
+                                    <a href="malito:info@dentacare.com" class="hover:text-indigo-300 transition">info@dentacare.com</a>
+                                </p>
+                                <p class="mb-4 flex items-center">
+                                    <i class="fa-solid fa-clock mr-2 text-indigo-300"></i>
+                                    Mon-Fri 8AM - 5PM
+                                </p>
+                            </div>
+
+                         </div>
+                    </div>
+                </div>
+            </section>
+            <!-- footer -->
+            <footer class="bg-blue-900 text-white relative">
+                <div class="absolute top-0 left-0 w-full h-[48px] overflow-hidden">
+                    <svg class="relative block h-12 w-full" viewBox="0 0 1200 120" preserveAspectRatio="none"><path fill="#e5e7eb" d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,289.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113.64,31.08,1200,56.86V0Z"></path></svg>
+                </div>
+                <div class="w-[1000px] mx-auto px-6 py-12">
+                    <div class="flex gap-6">
+                        <div class="w-[250px]">
+                            <h3 class="text-lg font-semibold mb-4 text-indigo-300">DentaCare</h3>
+                            <p>A small river named Duden flows by, offering a serene dental experience</p>
+                        </div>
+                        <div class="w-[250px]">
+                            <h3 class="text-lg font-semibold mb-4 text-indigo-300">Quick Links</h3>
+                            <ul class="space-y-2 text-sm">
+                                <li><a href="#" class="text-white hover:text-blue-200 hover:scale-105">Home</a></li>
+                                <li><a href="#" class="text-white hover:text-blue-200 hover:scale-105">About</a></li>
+                                <li><a href="#" class="text-white hover:text-blue-200 hover:scale-105">Services</a></li>
+                                <li><a href="#" class="text-white hover:text-blue-200 hover:scale-105">Doctors</a></li>
+                                <li><a href="#" class="text-white hover:text-blue-200 hover:scale-105">Blog</a></li>
+                                <li><a href="#" class="text-white hover:text-blue-200 hover:scale-105">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="w-[250px]">
+                            <h3 class="text-lg font-semibold mb-4 text-indigo-300">Services</h3>
+                            <ul class="space-y-2 text-sm">
+                                <li><a href="#" class="text-white hover:text-blue-200 hover:scale-105">Teeth Whitening</a></li>
+                                <li><a href="#" class="text-white hover:text-blue-200 hover:scale-105">Teeth Cleaning</a></li>
+                                <li><a href="#" class="text-white hover:text-blue-200 hover:scale-105">Quality Brackets</a></li>
+                                <li><a href="#" class="text-white hover:text-blue-200 hover:scale-105">Dental Implants</a></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="w-[250px]">
+                            <h3 class="text-lg font-semibold mb-4 text-indigo-300">Contact</h3>
+                            <p class="mb-4 flex items-center">
+                                    <i class="fa-solid fa-location-dot mr-2 text-indigo-300"></i>
+                                    123 Duden Road, Dental City, DC 12345
+                                </p>
+                                <p class="mb-4 flex items-center">
+                                    <i class="fa-solid fa-phone-alt mr-2 text-indigo-300"></i>
+                                    <a href="tel:+123456 7890" class="hover:text-indigo-300 transition">+ (123) 456 7890</a>
+                                </p>
+                                <p class="mb-4 flex items-center">
+                                    <i class="fa-solid fa-envelope mr-2 text-indigo-300"></i>
+                                    <a href="malito:info@dentacare.com" class="hover:text-indigo-300 transition">info@dentacare.com</a>
+                                </p>
+                                <ul class="flex space-x-2 text-sm">
+                                <li><a href="#" class="text-white hover:text-blue-200 hover:scale-105"><i class="fab fa-facebook"></i> </a></li>
+                                <li><a href="#" class="text-white hover:text-blue-200 hover:scale-105"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#" class="text-white hover:text-blue-200 hover:scale-105"><i class="fab fa-instagram"></i></a></li>
+                                
+                                
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-center mt-8 text-gray-300 text-sm">&copy; 2026 DentaCare. All Rights Reserved </p>
+                    </div>
+                </div>
+            </footer>
+</body>
+</html>
